@@ -7,7 +7,7 @@ table {
 input[type="button"] {
     width: 100%;
     padding: 20px 40px;
-    background-color: green;
+    background-color: darkblue;
     color: white;
     font-size: 24px;
     font-weight: bold;
@@ -24,6 +24,10 @@ input[type="text"] {
     border: 2px solid black;
 }
 
+input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
 #expression {
     padding: 10px 30px;
     font-size: 18px;
@@ -32,3 +36,11 @@ input[type="text"] {
     border-radius: 5px;
     border: 2px solid black;
 }
+
+#header {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
