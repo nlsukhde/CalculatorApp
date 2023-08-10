@@ -14,6 +14,8 @@ input[type="button"] {
     border: none;
     border-radius: 5px;
 }
+
+
   
 input[type="text"] {
     padding: 20px 30px;
@@ -27,6 +29,7 @@ input[type="text"] {
 input[type="button"]:hover {
     background-color: #2980b9;
 }
+
 
 #expression {
     padding: 10px 30px;
